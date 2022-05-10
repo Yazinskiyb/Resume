@@ -1,24 +1,27 @@
-p {
-    color: red;
+#main {
+    background-color: rgb(57, 137, 218);
+    width: 50%;
+    width: 250px;
+    height: 1000px;
+    padding: 10px;
+    word-wrap: break-word;
 }
-/* comentar */
-#text {
-    color: blue;
+#photo {
+    position: absolute;
+    border-radius: 200px;
+    border: 3px solid white;
+    left: 25px;
 }
-.par {
-    color: aqua;
-    font-style: ;
+.contacts {
+    position: absolute;
+    top: 320px;
+    left: 20px;
 }
-div {
-    background-color: blueviolet;
+.summary {
+
 }
-.bg {
-    background-color: black;
-}
-span {
-    color: black;
-    text-transform: uppercase;
-}
-body {
-    background-color: brown;
+#summ {
+    position: absolute;
+    top: 500px;
+    color: white;
 }
