@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
 }
 #main {
     background-color: rgb(57, 137, 218);
@@ -7,7 +7,7 @@ body {
     height: 1000px;
     word-wrap: break-word;
     border: 5px solid red;
-    top: 10px;
+    top: 50px;
     position: absolute;
 }
 #photo {
@@ -35,11 +35,82 @@ body {
     color: white;
     line-height: 30px;
 }
+.lit {
+    position: relative;
+    top: 200px;
+    color: white;
+    line-height: 30px;
+}
 .Names {
-    position: absolute;
+    position: relative;
     border: 5px solid red;
     left: 300px;
     width: 500px;
     height: 1000px;
-    top: 10px;
+    top: 30px;
+}
+#name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#titl2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.tec {
+position: relative;
+left: 20px;
+top: 40px;
+color: rgb(91, 155, 213);
+}
+#skills {
+    position: relative;
+    left: 20px;
+    column-count: 2;
+    top: 30px;
+    
+    }
+.Ed {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    color: rgb(91, 155, 213);
+}
+#education {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.WORK {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    color: rgb(91, 155, 213);
+}
+#exp {
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+hr{
+    border: none;
+    background-color: black;
+    color: black;
+    height: 2px;
+    position: relative;
+    top: 30px;
+}
+#QA {
+    order: 0;
+    align-self: flex-end;
+}
+#RE {
+    order: 1;
+    align-self: flex-end;
 }
