@@ -3,11 +3,10 @@ body {
 }
 #main {
     background-color: rgb(57, 137, 218);
-    width: 250px;
+    width: 280px;
     height: 1000px;
     word-wrap: break-word;
-    border: 5px solid red;
-    top: 50px;
+    top: 20px;
     position: absolute;
 }
 #photo {
@@ -15,44 +14,48 @@ body {
     border-radius: 200px;
     border: 3px solid white;
     left: 25px;
+    top: 10px;
 }
 .contacts {
     position: relative;
     top: 210px;
     color: white;
+    left: 10px;
 }
 .summary {
  position: relative;
- top: 200px;
+ top: 210px;
  color: white;
-}
-#lang {
-    line-height: 30px;
+ left: 10px;
+ width: 270px;
 }
 .lang {
     position: relative;
-    top: 200px;
+    top: 210px;
     color: white;
     line-height: 30px;
+    left: 10px;
 }
 .lit {
     position: relative;
     top: 200px;
     color: white;
     line-height: 30px;
+    left: 10px;
+    width: 270px;
 }
 .Names {
     position: relative;
-    border: 5px solid red;
     left: 300px;
     width: 500px;
     height: 1000px;
-    top: 30px;
+    top: 20px;
 }
 #name {
     position: relative;
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 #titl2 {
     position: relative;
@@ -72,7 +75,6 @@ color: rgb(91, 155, 213);
     left: 20px;
     column-count: 2;
     top: 30px;
-    
     }
 .Ed {
     position: relative;
@@ -80,23 +82,11 @@ color: rgb(91, 155, 213);
     top: 40px;
     color: rgb(91, 155, 213);
 }
-#education {
-    position: relative;
-    left: 20px;
-    top: 40px;
-    display: flex;
-    flex-direction: column;
-}
 .WORK {
     position: relative;
     left: 20px;
     top: 40px;
     color: rgb(91, 155, 213);
-}
-#exp {
-    position: relative;
-    left: 20px;
-    top: 40px;
 }
 hr{
     border: none;
@@ -106,11 +96,59 @@ hr{
     position: relative;
     top: 30px;
 }
-#QA {
-    order: 0;
-    align-self: flex-end;
+.textcols {
+	white-space: nowrap;
+    position: relative;
+    left: 20px;
+    top: 50px;
 }
-#RE {
-    order: 1;
-    align-self: flex-end;
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
+}
+.type {
+    position: relative;
+    right: 50px;
+    font-style: italic;
+    color: gray;
+}
+.date {
+    font-weight: 700;
+}
+.nm {
+    color: black;
+    font-style: normal;
+}
+.we {
+	white-space: nowrap;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+.we_items {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.we .we_items:first-child {
+	margin-right: 4%;
+}
+ .desc{
+    position: relative;
+    right: 50px;
+    font-style: italic;
+    color: gray;
+}
+.date2 {
+    font-weight: 700;
+}
+#sale {
+    color: black;
+    font-style: normal;
 }
